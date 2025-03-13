@@ -119,8 +119,10 @@ namespace AzureAIAgentServiceDemo
                 No participant should take more than one turn in a row.
 
                 Choose only from these participants:
-                - {stockExpert}
-                - {investorAdvisor}
+                - {{{stockExpert}}}
+                - {{{investorAdvisor}}}
+
+                Note after stockExpert agent provides information, the next participant should provide advice
 
                 History:
                 {$history}
